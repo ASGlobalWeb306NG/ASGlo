@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A&S GLOBAL WEB | Software Solutions</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+    body{font-family:Arial,sans-serif;background:#f4f8ff;color:#111827}
+    header{position:sticky;top:0;z-index:1000;background:#06152f;padding:18px 7%;box-shadow:0 3px 15px #0003}
+    nav{display:flex;justify-content:space-between;align-items:center}
+    .logo{display:flex;align-items:center;gap:10px;color:#fff;font-size:22px;font-weight:bold}
+    .logo span{color:#168cff}
+    .logo-icon{width:45px;height:45px;border:3px solid #168cff;border-radius:50%;display:flex;align-items:center;justify-content:center}
+    nav ul{display:flex;list-style:none;gap:25px}
+    nav a{color:#fff;text-decoration:none;font-weight:bold}
+    nav a:hover{color:#168cff}
+    .whatsapp{background:#25D366;padding:12px 20px;border-radius:30px}
+    .hero{min-height:650px;display:flex;align-items:center;padding:70px 8%;background:linear-gradient(120deg,#03102a,#063b83,#06152f);color:#fff}
+    .hero-content{max-width:680px}
+    .tag{display:inline-block;border:1px solid #168cff;padding:10px 18px;border-radius:30px;color:#5bb4ff;margin-bottom:20px}
+    h1{font-size:60px;line-height:1.05;margin-bottom:20px}
+    h1 span{color:#168cff}
+    .hero p{font-size:19px;line-height:1.7;color:#dbeafe;margin-bottom:30px}
+    .btn{display:inline-block;padding:15px 28px;border-radius:30px;background:#087cff;color:#fff;text-decoration:none;font-weight:bold;margin-right:10px}
+    .btn-outline{background:transparent;border:2px solid #168cff}
+    section{padding:80px 8%}
+    .section-title{text-align:center;margin-bottom:45px}
+    .section-title small{color:#087cff;font-weight:bold}
+    .section-title h2{font-size:38px;margin-top:10px}
+    .section-title p{max-width:650px;margin:15px auto;color:#64748b;line-height:1.6}
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+    .card{background:#fff;padding:30px;border-radius:15px;box-shadow:0 8px 30px #00000014;transition:.3s}
+    .card:hover{transform:translateY(-8px)}
+    .icon{width:55px;height:55px;border-radius:12px;background:#087cff;color:#fff;display:flex;align-items:center;justify-content:center;font-size:25px;margin-bottom:20px}
+    .card h3{margin-bottom:12px}.card p{color:#64748b;line-height:1.6}
+    .about{background:#06152f;color:#fff}
+    .about-container{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+    .about-box{border:1px solid #168cff;border-radius:20px;min-height:330px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#082d63,#020b1c)}
+    .big-logo{text-align:center;font-size:42px;font-weight:bold}.big-logo span{color:#168cff}
+    .about-text h2{font-size:38px;margin-bottom:20px}.about-text p{line-height:1.8;color:#cbd5e1}
+    .contact{text-align:center;background:linear-gradient(120deg,#087cff,#00429a);color:#fff}
+    .contact h2{font-size:40px;margin-bottom:15px}.contact p{margin-bottom:30px;font-size:18px}
+    .contact-button{display:inline-block;background:#25D366;padding:16px 30px;color:#fff;text-decoration:none;border-radius:30px;font-weight:bold}
+    footer{background:#020b1c;color:#fff;padding:35px 8%;text-align:center}
+    footer p{color:#94a3b8;margin-top:10px}
+    @media(max-width:900px){nav ul{display:none}.hero h1{font-size:43px}.services{grid-template-columns:repeat(2,1fr)}.about-container{grid-template-columns:1fr}}
+    @media(max-width:600px){.hero{padding:60px 6%}.hero h1{font-size:38px}.services{grid-template-columns:1fr}section{padding:60px 6%}.whatsapp{display:none}}
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><div class="logo-icon">A&S</div>A&S <span>GLOBAL WEB</span></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a class="whatsapp" href="https://wa.me/2348136717810" target="_blank">WhatsApp</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="hero-content">
+    <div class="tag">Innovative Software Solutions</div>
+    <h1>A&S <span>GLOBAL WEB</span></h1>
+    <p>Your Vision • Our Code • A Smarter Tomorrow<br><br>
+      We create modern websites, software and digital solutions that help businesses, brands and individuals grow in the digital world.
+    </p>
+    <a href="#services" class="btn">Our Services</a>
+    <a href="https://wa.me/2348136717810" target="_blank" class="btn btn-outline">Get Started</a>
+  </div>
+</section>
+
+<section id="services">
+  <div class="section-title">
+    <small>OUR SERVICES</small>
+    <h2>What We Do</h2>
+    <p>We provide professional software and digital services designed to turn your ideas into reality.</p>
+  </div>
+  <div class="services">
+    <div class="card"><div class="icon">💻</div><h3>Web Development</h3><p>Modern, responsive and professional websites for businesses, brands and individuals.</p></div>
+    <div class="card"><div class="icon">📱</div><h3>Mobile Apps</h3><p>Powerful and user-friendly mobile applications designed for modern users.</p></div>
+    <div class="card"><div class="icon">⚙️</div><h3>Software Development</h3><p>Custom software solutions designed to make your work easier and more efficient.</p></div>
+    <div class="card"><div class="icon">🚀</div><h3>Digital Solutions</h3><p>Creative digital solutions that help your business build a stronger online presence.</p></div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-box"><div class="big-logo">A&S<br><span>GLOBAL WEB</span></div></div>
+    <div class="about-text">
+      <h2>About A&S GLOBAL WEB</h2>
+      <p>A&S GLOBAL WEB is a software and digital solutions brand focused on creating modern technology for businesses, brands and individuals.</p>
+      <br>
+      <p>Our goal is simple: turn your ideas into reliable, professional and easy-to-use digital experiences.</p>
+      <br><strong>Build • Innovate • Grow</strong>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Let's Build Something Great Together</h2>
+  <p>Have an idea for a website or software? Contact A&S GLOBAL WEB today.</p>
+  <a href="https://wa.me/2348136717810" target="_blank" class="contact-button">💬 Chat With Us on WhatsApp</a>
+</section>
+
+<footer>
+  <h2>A&S GLOBAL WEB</h2>
+  <p>© 2026 A&S GLOBAL WEB. All Rights Reserved.</p>
+  <p>Build • Innovate • Grow</p>
+</footer>
+
+</body>
+</html>
